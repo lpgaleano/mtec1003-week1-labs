@@ -14,6 +14,13 @@ Follow the instructions line-by-line.
 $ ls<ENTER>
 
 Copy and paste the output of ls below.
+
+Applications				Downloads				Note.txt
+Creative Cloud Files			LPG.txt					Pictures
+Creative Cloud Files (archived) (1)	Library					Public
+Desktop					Movies
+Documents				Music
+
 ----------
 Applications
 Creative Cloud Files
