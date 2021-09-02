@@ -14,6 +14,13 @@ Follow the instructions line-by-line.
 $ ls<ENTER>
 
 Copy and paste the output of ls below.
+Applications				Library
+Creative Cloud Files			Movies
+Creative Cloud Files (archived) (1)	Music
+Desktop					Note.txt
+Documents				Pictures
+Downloads				Public
+LPG.txt
 ----------
 Applications
 Creative Cloud Files
@@ -48,6 +55,9 @@ venv
 $ ls -l Documents<ENTER>
 
 Copy and paste the first *two lines* of output below.
+
+drwxr-xr-x@ 3 michaeldeleon  staff      96 Jun 14 23:56 Adobe
+-rwx------@ 1 michaeldeleon  staff  248999 Nov 18  2020 Grad School Breakdown.pages
 ----------
 drwx------@  5 louisgoldford2020  staff    160 Jun 12  2020 Applications
 drwx------@  4 louisgoldford2020  staff    128 Jan 11 10:49 Creative Cloud Files
@@ -62,6 +72,9 @@ drwx------@  4 louisgoldford2020  staff    128 Jan 11 10:49 Creative Cloud Files
 $ ls -a Documents
 
 Copy and paste the first *two lines* of output below.
+.				Mlb free agents .pages
+..				Udemy Practice Book.xlsx
+
 ----------
 .			Adobe			IanniX			OM			Zwift
 ..			CU			Ircam			Pd			iZotope
@@ -76,7 +89,10 @@ Copy and paste the first *two lines* of output below.
 $ ls doesnotexist
 
 Copy and paste the output below.
-----------
+
+ls: doesnotexist: No such file or directory
+
+---------
 ls: doesnotexist: No such file or directory
 
 
@@ -85,6 +101,8 @@ ls: doesnotexist: No such file or directory
 
 ==========
 5.  What key do I press to go to the previous command?
+the Up key 
+
 ----------
 the UP arrow on my keyboard 
 
@@ -176,7 +194,7 @@ Follow the instructions line-by-line.
 12. Open a new terminal window. Create a directory called mtec1003. What command did you use?
 ----------
 
-mkdir
+mkdir Mtech 1003
 
 
 
@@ -185,7 +203,7 @@ mkdir
 13. Change your directory so that you're in mtec1003. What command did you use?
 ----------
 
-cd 
+cd metech1003
 
 
 
@@ -193,7 +211,7 @@ cd
 ==========
 14. Type:
 
-$ pwd
+$ pwd 
 
 Check that the output ends with mtec1003 (something like this: /Users/joe/mtec1002).
 
@@ -202,7 +220,7 @@ If it doesn't ask for help before moving on!
 Copy and paste the output of pwd below.
 ----------
 /Users/louisgoldford2020/mtec1003
-
+/Users/michaeldeleon/mtech1003
 
 
 
@@ -258,6 +276,7 @@ $ pwd
 Copy and paste the output below.
 ----------
 /Users/louisgoldford2020/mtec1003/foo/bar/baz/qux
+/Users/michaeldeleon/foo/bar/baz/qux
 
 
 
@@ -271,7 +290,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/michaeldeleon/foo/bar
 
 
 
@@ -285,7 +304,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+/Users/michaeldeleon/foo/bar/baz/qux
 
 
 
@@ -299,7 +318,7 @@ $ pwd
 
 Copy and paste the output below.
 ----------
-
+-bash: cd../../..: No such file or directory
 
 
 
@@ -328,7 +347,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/michaeldeleon
 
 
 
@@ -342,7 +361,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Volumes
 
 
 
@@ -356,9 +375,8 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
-
-
+-bash: cd: /unknown_folder: No such file or directory
+/Volumes
 
 
 
@@ -370,7 +388,7 @@ $ pwd
 
 Copy and paste the output into the space below.
 ----------
-
+/Users/michaeldeleon/mtech1003
 
 
 
@@ -383,7 +401,7 @@ $ hostname
 
 Copy and paste the output into the space below.
 ----------
-
+Michaels-Air.home
 
 
 
@@ -392,7 +410,16 @@ Copy and paste the output into the space below.
 ==========
 28. Make sure you're back in your mtec1002, which should be in your home folder.  What command would you use to find out if you're in the right folder?  Write the command below, then run it.
 ----------
-
+$ ls
+Michaels-Air:~ michaeldeleon$ ls
+Applications				Movies
+Creative Cloud Files			Mtech1003
+Creative Cloud Files (archived) (1)	Music
+Desktop					Note.txt
+Documents				Pictures
+Downloads				Public
+LPG.txt					foo
+Library
 
 
 
@@ -424,7 +451,7 @@ lemon
 Write the one command you used below:
 ----------
 
-
+mkdir -p pinapple/orange/strawberry/lemon
 
 
 
@@ -434,7 +461,7 @@ Write the one command you used below:
 
 Write the command you used to create the directory below:
 ----------
-
+Michaels-Air:Mtech1003 michaeldeleon$ mkdir aardvark
 
 
 
@@ -445,7 +472,7 @@ Write the command you used to create the directory below:
 
 What is the modified date of the aardvark directory?
 ----------
-
+.		..		.DS_Store	aardvark	animals		foo		food		pinapple 
 
 
 
