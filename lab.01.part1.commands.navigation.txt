@@ -488,7 +488,7 @@ What is the modified date of the aardvark directory?
 What command did you use?
 ----------
 
-
+mkdir -p foo/bar/baz
 
 
 
@@ -498,7 +498,7 @@ What command did you use?
 
 What command did you use?
 ----------
-
+cd ../
 
 
 
@@ -510,7 +510,7 @@ What command did you use?
 What command did you use?
 ----------
 
-
+../..
 
 
 
@@ -527,7 +527,7 @@ What command did you use?
 ==========
 37. What command is used to print out your current working directory?
 ----------
-
+Pwd 
 
 
 
@@ -545,7 +545,7 @@ What command did you use?
 ==========
 39. What's the shortcut for home directory?
 ----------
-
+Cd ~
 
 
 
@@ -555,7 +555,7 @@ What command did you use?
 40. What's a pathname?
 ----------
 
-
+specifie location in the file system. 
 
 
 
@@ -563,7 +563,7 @@ What command did you use?
 ==========
 41. What is a directory?
 ----------
-
+It is the main Folder to a structure of file system that references other files (and directories)
 
 
 
@@ -572,3 +572,5 @@ What command did you use?
 ==========
 42. What's the *absolute* path (full path, starting at root) to your user's Downloads directory?
 ----------
+/Users/username/Downloads
+/Users/michaeldeleon/Downloads
