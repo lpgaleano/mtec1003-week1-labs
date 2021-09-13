@@ -14,26 +14,27 @@ Feel free to use your workstation to test your answers to the questions that don
 ==========
 1. Write the command that you would use to change to the root directory.
 ----------
-
+/
 
 
 ==========
 2. Write the command that you would use to change to your home directory.
 ----------
-
+cd ~
 
 
 ==========
 3. What's the absolute path to your Desktop directory?
 ----------
-
+/Users/professor/Desktop
+/michaeldeleon/Desktop
 
 
 ==========
 4. If you're in your home directory, how would you create a new directory on your desktop
 called stuff without changing your directory?  Write your command below.
 ----------
-
+mkdir stuff 
 
 
 
@@ -53,7 +54,7 @@ called stuff without changing your directory?  Write your command below.
 7. How would you show all of the files (including hidden ones) with detailed (long) information
 for all files on your Desktop — if you're currently in your home directory?  Write your command below.
 ----------
-
+ls
 
 
 ==========
@@ -74,7 +75,7 @@ $ echo hello there
 
 Copy and paste the output below.
 ----------
-
+hello there
 
 
 
@@ -85,7 +86,7 @@ $ echo whoa
 
 Copy and paste the output below.
 ----------
-
+whoa
 
 
 ==========
@@ -95,7 +96,9 @@ $ echo good mornin'
 
 Copy and paste the output below.
 ----------
-
+> 
+> echo good mornin'
+good mornin' 
 
 
 ==========
@@ -103,7 +106,7 @@ Copy and paste the output below.
 
 Type [CTRL + C] to get your prompt back.
 ----------
-
+>
 
 
 ==========
@@ -113,7 +116,7 @@ $ echo "good mornin'"
 
 Copy and paste the output below.
 ----------
-
+good mornin'
 
 
 ==========
@@ -124,16 +127,16 @@ $ echo *
 
 What happens?
 ----------
+Applications Creative Cloud Files Creative Cloud Files (archived) (1) Creative Cloud Files lorena.galeano@live.lagcc.cuny.edu 9dd6309e3ddbbd63a6a8b9a4222e8fdf40db37a8db549b9faa8d2dc724931b39 Desktop Documents Downloads LPG.txt Library Movies Music Note.txt Pictures Public
 
-
-
+Brings up any open files 
 
 ==========
 7. Ok... that's a lot of output.  How do we clean up our screen so that it's empty again?
 
 Write the command that you used below:
 ----------
-
+clear 
 
 
 ==========
@@ -149,9 +152,10 @@ $ curl -o mygoogle.html www.google.com
 Now copy and paste the output below.
 ----------
 
-
-
-
+ % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 14938    0 14938    0     0  80745      0 --:--:-- --:--:-- --:--:-- 82530
+Michaels-Air:~ michaeldeleon$ 
 
 
 
@@ -160,7 +164,7 @@ Now copy and paste the output below.
 
 Write the command you used to determine your directory. Also, copy and paste the output below.
 ----------
-
+cd
 
 
 
@@ -171,7 +175,7 @@ Write the command you used to determine your directory. Also, copy and paste the
 Write the command that you used to change to your home directory.
 If you were already in your home directory, write the command that you *would* have used to change to it!
 ----------
-
+cd~
 
 
 ==========
@@ -188,11 +192,11 @@ Then, use ls to verify that it downloaded.
 Write down the command(s) that you used to download the file below.
 Finally, write the output of the command below.
 ----------
-
-
-
-
-
+curl -o labmaterials http://einbahnstrasse.github.io/Goldford-MTEC1003-Fall2020/labs/01/my-flashcards.zip
+% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100  9115  100  9115    0     0   111k      0 --:--:-- --:--:-- --:--:--  111k
+Michaels-Air:~ michaeldeleon$ 
 
 
 
@@ -204,7 +208,7 @@ List the contents of your home directory to prove that the directory was created
 
 Copy and paste the output below.
 ----------
-
+no output 
 
 
 
@@ -232,7 +236,7 @@ List the files in the directory you're currently in (which should be home).
 
 Copy and paste the output below.
 ----------
-
+command not found
 
 
 
@@ -244,8 +248,9 @@ $ tar -cvf stuff.tar stuff
 
 Copy and paste the output below.
 ----------
-
-
+tar: stuff: Cannot stat: No such file or directory
+tar: Error exit delayed from previous errors.
+Michaels-Air:~ michaeldeleon$ 
 
 
 
