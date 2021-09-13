@@ -192,11 +192,11 @@ Then, use ls to verify that it downloaded.
 Write down the command(s) that you used to download the file below.
 Finally, write the output of the command below.
 ----------
-curl -o labmaterials http://einbahnstrasse.github.io/Goldford-MTEC1003-Fall2020/labs/01/my-flashcards.zip
-% Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+curl -o labmaterials.zip http://einbahnstrasse.github.io/Goldford-MTEC1003-Fall2020/labs/01/my-flashcards.zip
+ % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-100  9115  100  9115    0     0   111k      0 --:--:-- --:--:-- --:--:--  111k
-Michaels-Air:~ michaeldeleon$ 
+100  9115  100  9115    0     0   193k      0 --:--:-- --:--:-- --:--:--  189k
+Michaels-Air:~ michaeldeleon$ ls
 
 
 
@@ -248,10 +248,9 @@ $ tar -cvf stuff.tar stuff
 
 Copy and paste the output below.
 ----------
-tar: stuff: Cannot stat: No such file or directory
-tar: Error exit delayed from previous errors.
-Michaels-Air:~ michaeldeleon$ 
-
+tar -cvf stuff.tar stuff
+a stuff
+a stuff/stuff.tar
 
 
 
@@ -264,6 +263,12 @@ List your files again.... you should have a new file with a .gz extension.
 Copy and paste the output of your this below.
 ----------
 
+random.ai
+stuff
+stuff.tar.gz
+untitled folder
+untitled folder 2
+Michaels-Air:desktop michaeldeleon$ 
 
 
 
@@ -275,3 +280,6 @@ $ tar -xvf stuff.tar.gz
 
 List the files.  Copy and paste the output below (the folder, stuff, should be there).
 ----------
+x stuff/
+x stuff/stuff.tar
+Michaels-Air:desktop michaeldeleon$ 
